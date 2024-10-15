@@ -1,0 +1,27 @@
+#home {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+  .home-content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-4);
+
+    .home-text {
+    }
+
+    .home-image {
+      width: 300px;
+      height: auto;
+      border-radius: 0.25rem;
+      mask-image: url(../assets/images/masks/paint-splash.png);
+      mask-size: 100% 100%;
+      mask-repeat: no-repeat;
+    }
+
+    @media screen and (min-width: 640px) {
+      flex-direction: row;
+    }
+  }
+}

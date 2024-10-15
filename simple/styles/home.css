@@ -1,0 +1,18 @@
+.home {
+  .home-content {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 1rem;
+
+    .home-text {
+    }
+
+    .home-image {
+      margin: 0.5rem 0;
+      max-width: 200px;
+      height: auto;
+      border-radius: 0.25rem;
+    }
+  }
+}

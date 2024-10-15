@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Badminton in Malaysia</title>
+
+    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <script src="./scripts/main.js" type="text/javascript"></script>
+  </head>
+
+  <body>
+    <div id="hero" class="hero">
+      <img class="hero-image hero-image-1" src="./assets/images/player-2.png" />
+      <img class="hero-image hero-image-3" src="./assets/images/player-1.png" />
+      <div class="hero-headline-container">
+        <h1 class="hero-headline">Badminton in Malaysia</h1>
+        <h2 class="hero-sub-headline">Where the shuttle never stops flying</h2>
+      </div>
+    </div>
+
+    <header>
+      <nav>
+        <a href="#home-anchor">Home</a>
+        <a href="#players-anchor">Players</a>
+        <a href="#video-anchor">Video</a>
+      </nav>
+    </header>
+
+    <section id="home" class="home container">
+      <div id="home-anchor" class="anchor"></div>
+      <h3 class="home-headline underline">Badminton: More Than a Sport</h3>
+
+      <div class="home-content">
+        <div class="home-text">
+          <p>
+            Badminton in Malaysia isn't just a game — it's a national obsession. From local courts to world championships, Malaysians live and breathe the
+            sport. The nation takes pride in producing world-class players and hosting international tournaments that draw fans from across the globe.
+          </p>
+          <p>
+            The sport is played everywhere — from bustling city clubs to quiet rural courts. Badminton brings communities together, fostering friendships and
+            healthy competition. Whether it's a casual match with friends or watching the Thomas Cup with family, badminton has become a shared experience
+            across generations in Malaysia.
+          </p>
+        </div>
+        <img src="./assets/images/player-3.webp" alt="playing Badminton" class="home-image" />
+      </div>
+    </section>
+
+    <section id="players" class="container">
+      <div id="players-anchor" class="anchor"></div>
+      <h3 class="underline">Players</h3>
+      <select>
+        <option>aasdf</option>
+        <option>lksjdf</option>
+      </select>
+
+      <div class="players">
+        <div class="player">
+          <img src="./assets/images/players/LEE-Zii-Jia-transparent.png" class="player-image" alt="LEE Zii Jia" />
+          <div class="player-info">
+            <h4 class="player-info-name">
+              <span class="first">LEE</span>
+              <span class="second">Zii Jia</span>
+            </h4>
+            <div class="player-info-stats">
+              <p class="player-info-rank">Rank: <span>4</span></p>
+              <p class="player-info-points">Points: <span>83716</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="player">
+          <img src="./assets/images/players/Lee-Chong-Wei-transparent.png" class="player-image" alt="LEE Chong Wei" />
+          <div class="player-info">
+            <h4 class="player-info-name">
+              <span class="first">LEE</span>
+              <span class="second">Chong Wei</span>
+            </h4>
+            <div class="player-info-stats">
+              <p class="player-info-rank">Rank: <span>191</span></p>
+              <p class="player-info-points">Points: <span>8400</span></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="player">
+          <img src="./assets/images/players/muhammad-roslin-hashim-transparent.png" class="player-image" alt="LEE Chong Wei" />
+          <div class="player-info">
+            <h4 class="player-info-name">
+              <span class="first">Muhammad Roslin</span>
+              <span class="second">HASHIM</span>
+            </h4>
+            <div class="player-info-stats">
+              <p class="player-info-rank">Rank: <span>279</span></p>
+              <p class="player-info-points">Points: <span>3380</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="video" class="video">
+      <div id="video-anchor" class="anchor"></div>
+      <div class="video-container">
+        <div class="video-wrapper">
+          <!-- <iframe
+            class="video-player"
+            src="https://www.youtube-nocookie.com/embed/1vddVU53OBY?si=pivePypbOaDRI3oH"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="comment-section" class="container comment-section">
+      <form action="javascript:;" onsubmit="comment(this) ">
+        <label for="">
+          <span>Name</span>
+          <input type="text" id="input-name" />
+        </label>
+        <label>
+          <span>Comment</span>
+          <textarea id="input-comment"></textarea>
+        </label>
+        <button>Submit</button>
+      </form>
+      <h4 class="subheadline">Comments</h4>
+      <div id="comments" class="comment-section-comments"></div>
+    </section>
+
+    <footer>
+      <div class="footer-wrapper">
+        <div class="footer-section">
+          <p>Address</p>
+          <ul>
+            <li>Badminton Association of Malaysia</li>
+            <li>Akademi Badminton Malaysia (ABM)</li>
+            <li>60000 Kuala Lumpur</li>
+            <li>Malaysia</li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <p>Contact Us</p>
+          <ul>
+            <li>Tel: <a href="">+60-1234 5678</a></li>
+            <li>Fax: <a href="">+60-1234 5678 9</a></li>
+            <li>Email: <a href="">admin@bam.org.my</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
